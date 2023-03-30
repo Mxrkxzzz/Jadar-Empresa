@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+span{
+  color: #ff401b
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+    font-family:'Poppins',sans-serif; 
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(/img/xdd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 24px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color:white;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #ff401b;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #ff401b;
+    color: white;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 25px 0;
+    border: 0;
+}
+
+
+.btn-1:hover{
+    background-color: rgb(189, 53, 0);
+}
+
+
+#somos1 .container{
+  text-align: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+  )
+  ,url("/img/jdr1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 60px;
+  max-width: none;
+}
+
+#somos2 .container{
+  text-align: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+  )
+  ,url("/img/jdr1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 40px;
+  max-width: none;
+}
+#somos3 .container{
+  text-align: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+  )
+  ,url("/img/jdr1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 63px;
+  max-width: none;
+}
+.welcome{
+    display: flex;
+}
+
+.welcome-1{
+    background-image: url(/img/jdr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 37%;
+}
+
+.welcome-2{
+    width: 63%;
+    padding: 150px 250px 150px 100px;
+    background-color: rgb(27, 27, 27);
+}
+
+
+h2{
+    font-size: 90px;
+    line-height: 100px;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: gainsboro;
+    margin: 25px 0;
+}
+
+.b1{
+    color: #dddddd;
+}
+
+
+.personal{
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+    max-width: none;
+}
+
+.personal-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.personal-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+
+.personal-1{
+    text-align: center;
+    color: rgb(230, 148, 111);
+}
+
+.personal-1 img{
+    width: 200px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.personal-1 h3{
+    font-size: 22px;
+}
+
+.personal-1 p{
+    padding: 0 50px;
+}
+
+.personal-1 a{
+    color: #ff401b;
+}
+
+.personal-2{
+  text-align: center;
+  color: rgb(230, 148, 111);
+}
+
+.personal-2 img{
+  width: 161px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.personal-2 h3{
+  font-size: 22px;
+}
+
+.personal-2 p{
+  padding: 0 50px;
+}
+
+.personal-2 a{
+  color: #ff401b;
+}
+
+
+.personal-3{
+  text-align: center;
+  color: rgb(230, 148, 111);
+}
+
+.personal-3 img{
+  width: 200px;
+  height: 43vh;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.personal-3 h3{
+  font-size: 22px;
+}
+
+.personal-3 p{
+  padding: 0 50px;
+}
+
+.personal-3 a{
+  color: #ff401b;
+}
+
+
+
+#contacto{
+  background-color: #181818c0;
+  padding: 140px;
+}
+#contacto .container{
+  max-width: none;
+  background: #e9e8e8;
+  border: black solid 1px;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(156, 60, 60, 0.2);
+}
+#contacto .container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#contacto .container .content .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+#contacto .content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 120%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #000000;
+}
+#contacto .content .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+#contacto .content .left-side .details i{
+  font-size: 30px;
+  color: #ff401b;
+  margin-bottom: 10px;
+}
+#contacto .content .left-side .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+}
+#contacto .content .left-side .details .text-one,
+.content .left-side .details .text-two{
+  font-size: 14px;
+  color: #000000;
+}
+#contacto .container .content .right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+#contacto .content .right-side .topic-text{
+  font-size: 23px;
+  font-weight: 600;
+  color: #ff401b;
+}
+
+#contacto p{
+  color: #080808;
+}
+
+#contacto .right-side .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+#contacto .right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #c7c7c7;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+#contacto .right-side .message-box{
+  min-height: 110px;
+}
+#contacto .right-side .input-box textarea{
+  padding-top: 6px;
+}
+#contacto.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+#contacto .right-side .button input[type="button"]{
+  color: #ffffff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #ff401b;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#contacto .button input[type="button"]:hover{
+  background: #911e07;
+}
+
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(121, 121, 121);
+}
+
+footer .container{
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    max-width: none;
+}
+
+
+
+
+ @media (max-width: 950px) {
+    #contacto .container{
+      padding: 30px 40px 40px 35px ;
+    }
+    #contacto .container .content .right-side{
+     width: 75%;
+     margin-left: 55px;
+  }
+  }
+  @media (max-width: 820px) {
+    #contacto .container{
+      margin: 40px;
+      height: 100%;
+    }
+    #contacto .container .content{
+      flex-direction: column-reverse;
+    }
+    #contacto .container .content .left-side{
+     width: 100%;
+     flex-direction: row;
+     margin-top: 40px;
+     justify-content: center;
+     flex-wrap: wrap;
+   }
+   #contacto .container .content .left-side::before{
+     display: none;
+   }
+   #contacto .container .content .right-side{
+     width: 100%;
+     margin-left: 0;
+   }
+  }
+
+
+@media (min-width: 900px){
+    footer .container{
+        justify-content: flex-end;
+    }
+}
+
+@media(max-width: 991px){
+  .logo{
+    padding: 30px;
+  }
+  .menu{
+    padding: 20px;
+  }
+  .menu label{
+    display: initial;
+  }
+
+  .menu .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #181818;
+    display: none;
+  }
+
+  .menu .navbar ul li{
+    width: 100%;
+  }
+
+  #menu:checked ~ .navbar{
+    display: initial;
+  }
+  
+
+  .welcome{
+    flex-direction: column;
+  }
+  .welcome-1{
+    display: none;
+  }
+
+  .welcome-2{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 70px;
+    line-height: 80px;
+  }
+
+  p{
+    margin: 15px 0;
+  }
+
+  .personal{
+    padding: 30px;
+  }
+
+  .personal-group{
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .personal-1{
+    margin-bottom: 25px;
+  }
+
+  .personal-2{
+    margin-bottom: 25px;
+  }
+
+
+
+}
