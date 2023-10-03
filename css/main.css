@@ -9,7 +9,7 @@
 }
 
 html{
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 
 span{
@@ -27,7 +27,7 @@ body{
 }
 
 .header{
-    background-image: url(/img/xdd.jpg);
+    background-image: url(/img/fondos/xdd.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,12 +105,13 @@ body{
 
 #somos1 .container{
   text-align: center;
+  font-size: 25px;
   background-image: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
   )
-  ,url("/img/jdr1.jpg");
+  ,url("/img/fondos/jdr1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -122,28 +123,30 @@ body{
 
 #somos2 .container{
   text-align: center;
+  font-size: 25px;
   background-image: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
   )
-  ,url("/img/jdr1.jpg");
+  ,url("/img/fondos/jdr1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   margin: 0;
-  padding: 40px;
+  padding: 60px;
   max-width: none;
 }
 #somos3 .container{
   text-align: center;
+  font-size: 25px;
   background-image: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
   )
-  ,url("/img/jdr1.jpg");
+  ,url("/img/fondos/jdr1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -152,22 +155,21 @@ body{
   padding: 63px;
   max-width: none;
 }
-.welcome{
+.nosotros{
     display: flex;
 }
 
-.welcome-1{
-    background-image: url(/img/jdr.jpg);
-    background-position: center;
+.nosotros-1{
+    background-image: url(/img/fondos/fondo\ 8.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     width: 37%;
 }
 
-.welcome-2{
+.nosotros-2{
     width: 63%;
     padding: 150px 250px 150px 100px;
-    background-color: rgb(27, 27, 27);
+    background-image: url(/img/fondos/wall.jpg);
 }
 
 
@@ -180,7 +182,7 @@ h2{
 }
 
 p{
-    font-size: 16px;
+    font-size: 20px;
     color: gainsboro;
     margin: 25px 0;
 }
@@ -193,7 +195,7 @@ p{
 .personal{
     padding: 100px;
     text-align: center;
-    background-color: rgb(36, 36, 36);
+    background-image: url(/img/fondos/wall.jpg);
     max-width: none;
 }
 
@@ -202,7 +204,7 @@ p{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 21px;
 }
 
 
@@ -212,16 +214,13 @@ p{
     margin-bottom: 35px;
 }
 
-
 .personal-1{
-    text-align: center;
-    color: rgb(230, 148, 111);
+    color: #f0cfc9;
 }
 
-.personal-1 img{
-    width: 200px;
-    border-radius: 15px;
-    margin-bottom: 25px;
+.personal-1 video{
+    width: 400px;
+    height: 700px;
 }
 
 .personal-1 h3{
@@ -237,14 +236,12 @@ p{
 }
 
 .personal-2{
-  text-align: center;
-  color: rgb(230, 148, 111);
+  color: #f0cfc9;
 }
 
-.personal-2 img{
-  width: 161px;
-  border-radius: 15px;
-  margin-bottom: 25px;
+.personal-2 video{
+  width: 400px;
+  height: 700px;
 }
 
 .personal-2 h3{
@@ -262,29 +259,45 @@ p{
 
 .personal-3{
   text-align: center;
-  color: rgb(230, 148, 111);
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  width: 500px;
+  height: 700px;
+  position: relative;
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
 }
 
 .personal-3 img{
-  width: 200px;
-  height: 43vh;
-  border-radius: 15px;
-  margin-bottom: 25px;
+  width: 100%;
+  left: 0;
+  position: sticky;
+  object-fit: cover;
+  border-radius: 5px;
+  scroll-snap-align: center;
 }
 
-.personal-3 h3{
+/*
+.personal-4{
+  position: absolute;
+  margin-top: 705px;
+  margin-left: 535px;
+  color: #f0cfc9;
+}
+
+.personal-4 h3{
   font-size: 22px;
 }
 
-.personal-3 p{
+.personal-4 p{
   padding: 0 50px;
 }
 
-.personal-3 a{
+.personal-4 a{
   color: #ff401b;
 }
-
-
+*/
 
 #contacto{
   background-color: #181818c0;
@@ -488,14 +501,14 @@ footer .container{
   }
   
 
-  .welcome{
+  .nosotros{
     flex-direction: column;
   }
-  .welcome-1{
+  .nosotros-1{
     display: none;
   }
 
-  .welcome-2{
+  .nosotros-2{
     width: 100%;
     padding: 30px;
     text-align: center;
@@ -527,6 +540,10 @@ footer .container{
     margin-bottom: 25px;
   }
 
+  .personal-3{
+    margin-bottom: 55px;
+    margin-left: 150px;
+  }
 
 
 }
